@@ -16,7 +16,7 @@ print("hello world")
 
 #  variable is like a container , box that is used to store some information or data 
 
-name = "adeel" 
-age = 27
-height = 5.11
-is_student = True
+name = "adeel"   # string data type
+age = 27     # integet data type
+height = 5.11       # float data type
+is_student = True   # Boolean data type
