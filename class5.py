@@ -13,3 +13,19 @@
 # else:
 #     print("your input is wrong")
 
+
+
+# nested if else
+
+
+# a = 11
+
+# if a > 10:
+#     print("a is greater than 10")
+#     if a == 11:
+#         a += 1
+#         print(a)
+# elif a == 9:
+#     print("a is equal to 9")
+# else:
+#     print("a is smaller than 10")
