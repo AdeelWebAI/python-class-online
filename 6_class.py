@@ -65,5 +65,10 @@ i = i -2
 while i >= 0:
     print(i)
     i = i -1 
+# while loop with complex conditions
+#  thsi loop will continuesly taking input from the user until the number is greater than 30 or smaller than 10
+i = int(input("Enter the Number: "))
+while i <30 and i >10:
+    i = int(input("Enter the Number: "))
+    print(i)
 '''
-
