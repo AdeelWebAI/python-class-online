@@ -1,7 +1,8 @@
 # loops in python 
 
-# for loop at numbers
 """
+# for loop at numbers
+
 for i in range(5):  # it will print the numbers 0 to 4
     print(i)
     
@@ -21,6 +22,7 @@ for i in me:
     if (i == "e"):
         print("e is special character")
 
+# for loops on lists
 
 names = ["Adeel","Ahmad","Hamza","Abadullah"] 
 
@@ -29,3 +31,39 @@ for name in names:
     for n in name:
         print(n) 
 '''
+
+# while loops
+
+# while loop at numbers
+'''
+i= 0
+
+while i <= 5:
+    print(i)
+    i = i + 1 
+while i >0:
+    i = i-1
+    print(i) 
+
+# while loops at strings
+word = "AI"  
+i = 0
+
+while i < len(word):
+    print(word[i])
+    i += 1
+
+# else statement with while loop
+
+i = 0 
+while i <=5:
+    print(i)
+    i = i+1
+else:
+    print("we have reached at number", i-1) 
+i = i -2
+while i >= 0:
+    print(i)
+    i = i -1 
+'''
+
