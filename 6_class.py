@@ -71,4 +71,15 @@ i = int(input("Enter the Number: "))
 while i <30 and i >10:
     i = int(input("Enter the Number: "))
     print(i)
+# break and continue statements
+
+for i in range(11):
+    if i == 3:
+        print("This iteration will skipped")
+        continue # continue statement skipps the loop
+    if i == 6:
+        print("The loop is ended here")
+        break # break statement breaks the loop
+    print(i) 
+    
 '''
