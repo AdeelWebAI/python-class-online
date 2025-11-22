@@ -81,5 +81,4 @@ for i in range(11):
         print("The loop is ended here")
         break # break statement breaks the loop
     print(i) 
-    
 '''
