@@ -40,6 +40,21 @@ def total(*numbers):
     sum = 0
     for i in numbers:
         sum = sum + i
-    print("The total of the given numbers is bellow\n",sum)
+    print("The total of the given numbers are: \n",sum)
 total(3,3,3,3,4,5,56,6) 
+#  if we want to add dictionary as arguments
+
+def students(**student):
+    print("Hello", student["first"],student["second"],student["third"])
+students(first="Ali",second = "Ahmad", third = "Adeel") 
+
+# return statement
+
+def sum(a,b):
+    a+b
+    return a+b
+
+num = sum(2,3) 
+print(num)
+
 """
