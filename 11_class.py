@@ -1,3 +1,5 @@
+# these are the some commom methods of the lists BUT these are not the all methods because methods are increasing with the passage of time and in the newer version of the pythons
+
 lst = [1,2,3,4,3,2,4,5,6]
 lst2 = [7,8,9]
 """
