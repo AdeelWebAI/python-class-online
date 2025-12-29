@@ -8,7 +8,6 @@ country = "Pakistan"
 
 print(intro.format(country, name))
 
-"""
 name = "Adeel"
 country = "Pakistan"
 income = 666.123445678
@@ -20,3 +19,14 @@ print(f"My name is {{name}} and I am from {{country}}")
 
 calculation = f"{2*4}" # also we can perform calculations in f-string 
 print(type(calculation)) 
+
+"""
+# doc string in python
+# doc strings are not comments, these are strings that comes right after the definition of a function, method, class, or module
+
+def square(n):
+    '''Takes in a number n, returns the square of n'''
+    print(n**2)
+square(5) 
+
+print(square.__doc__)  
