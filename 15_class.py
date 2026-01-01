@@ -22,3 +22,11 @@ def factorial(n):
 print(factorial(6)) 
 
 """
+# countdown example for practice 
+
+def countdown(n):
+    if n == 0:
+        return 
+    print(n)
+    countdown(n-1) 
+countdown(5)
