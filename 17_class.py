@@ -13,6 +13,8 @@ for key in dic.keys():  # for keys
     print(key)  
 for value in dic.values():  # for values
     print(value) 
-"""
 for item in dic.items():
     print(item) 
+"""
+
+# methods in dictionaries 
