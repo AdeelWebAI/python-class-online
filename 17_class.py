@@ -18,3 +18,12 @@ for item in dic.items():
 """
 
 # methods in dictionaries 
+
+std1 = {"name":"Adeel", "Marks": 60 , "is_passed":True} 
+std2 = {"name2":"Ahmad", "Marks2": 30 , "is_passed2":True} 
+
+# std1.update(std2) # if any key hase the same name it will overwrite that 
+std1.clear() # clear all the values from dictionary
+std1.pop
+
+print(std1)
