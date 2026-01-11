@@ -21,9 +21,20 @@ for item in dic.items():
 
 std1 = {"name":"Adeel", "Marks": 60 , "is_passed":True} 
 std2 = {"name2":"Ahmad", "Marks2": 30 , "is_passed2":True} 
-
-# std1.update(std2) # if any key hase the same name it will overwrite that 
+"""
+std1.update(std2) # if any key has the same name it will overwrite that 
 std1.clear() # clear all the values from dictionary
-std1.pop
-
-print(std1)
+std1.pop("Marks") # it removes the specific key-value pair from the dictionary
+std1.popitem() # it removes the last key value pair from the dictionary
+del std1 # deletes the dictionary 
+del std1["is_passed"] # deletes the specific key-value from the dictionary 
+print(std1["is_passed"]) # to print specific item from the dictionary and will returns error if not found
+print(std1.get("name")) #to print specific item from the dictionary and will returns "None" if not found
+std1["is_eliible"] = True # adds another item to the dictionary 
+list_std = list(std1) # converts dictionary's keys into the list 
+list_std = list(std1.values()) # converts dictionary's values into the list 
+list_std = list(std1.items()) # converts dictionary's values into the list 
+""" 
+numbers = {1:"adeel",3:"hamza",2:"ali"}
+new_std = sorted(numbers)
+print(new_std) 
