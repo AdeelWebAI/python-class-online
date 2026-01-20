@@ -55,3 +55,20 @@ num2 = int(input("Enter second Number: "))
 print(num1 + num2) if opr == "+" else print(num1 - num2) if opr == "-" else print(num1 * num2) if opr == "*" else print(num1 / num2) if opr == "/" else print("Sorry! Please Enter a valid operator") 
 
 print("Sorry! An error occured, Maybe you Entered invalid operator") 
+
+# another simple example
+# a = 3
+# b = 5
+# c = 3 if a >b else 0
+
+# print(c) 
+
+
+# enumerate function in python 
+
+# enumerate function is used to print the index number with the loop 
+
+marks = [12,23,43,54,65,76,34,65]
+
+for index, mark in enumerate(marks, start=1):
+    print(f"student number {index} has the marks:{ mark}")
