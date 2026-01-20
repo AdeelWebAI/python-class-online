@@ -25,3 +25,47 @@
 # to deactivate the virtual environment in python we use the command
 #       deactivate      # deactivates the virtual environment
 
+
+
+
+
+
+#  import keyword in python
+
+
+# when we want to import some packages (built in or external) we use "import" key word in python 
+import datetime
+import math   # imports the builtin function of pi
+
+a = math.pi
+
+print(a) 
+
+from math import pi # from math imports just "pi" 
+
+print(pi) 
+
+import math as m  # imports math as "m"
+print(m.pi)
+
+from math import pi as p  # imports math as "m"
+print(p) 
+
+# we can also import functions from other files like:
+
+from test import *  # imports everything from test file
+from test import testFunction, name # imports the specific things
+
+testFunction() 
+print(name)
+
+from class_2 import name
+
+print(name)
+
+
+# dir word
+# dir word is used to see all functions and forumulas in a specific module
+
+print(dir(math))
+print(dir(datetime))
