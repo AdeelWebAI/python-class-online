@@ -15,11 +15,17 @@ for i in range(1,10):
 for i in range(1,10):
     os.rename(f"assets/folder{i}", f"assets/folder {i}" ) # rename the folders in bulk
 
-print(os.listdir()) # shows the current directories files in bulk
+print(os.listdir(".")) # shows the current directories files of current folder in bulk
 for i in os.listdir():  # shows the same thing in sequence 
     print(i) 
 os.remove("sample.py") # deletes files like sample.py (not folers)
 os.removedirs("assets") # deletes the empty folder 
 for i in range(1,10): 
     os.removedirs(f"assets/folder {i}") # do the same in bulk
+print(os.path.exists("fol1/fol2/fol3")) # checks either paths exists or not 
 """ 
+# important Tip
+
+# os.mkdir("fol1/fol2/fol3/pakistani") # wrong methods becaue it can be different in different Operating Systems.
+path = os.path.join("fol1","fol2","fol3","file1")
+os.mkdir(path) # right method, will work in all kind of operating systems 
