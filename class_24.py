@@ -1,5 +1,5 @@
 # File Handling in python 
-
+"""
 file = open("file1.txt","r") # "r" mode opens the file
 # open("file1.txt","w") # "w" write mode writes file if not exist and if already have itwill overwrite it.
 file.close() # closes opened file 
@@ -24,3 +24,22 @@ print(file.read())
 file.write("\nAdded text")
 file.close() 
 
+"""
+# f = open("file1.txt","r") 
+# manual method
+# line1 = f.readline()
+# line2 = f.readline()
+# line3 = f.readline() 
+# print(line1)
+# print(line2)
+# print(line3)
+# write lines methods in file handling
+
+
+f = open("file1.txt", "r")
+
+line = f.readline()
+
+while line:
+    print(line)
+    line = f.readline()
