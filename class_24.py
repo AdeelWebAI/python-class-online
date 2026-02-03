@@ -24,7 +24,6 @@ print(file.read())
 file.write("\nAdded text")
 file.close() 
 
-"""
 # f = open("file1.txt","r") 
 # manual method
 # line1 = f.readline()
@@ -35,7 +34,7 @@ file.close()
 # print(line3)
 # write lines methods in file handling
 
-
+# with readline() method
 f = open("file1.txt", "r")
 
 line = f.readline()
@@ -43,3 +42,24 @@ line = f.readline()
 while line:
     print(line)
     line = f.readline()
+
+# Write lines method
+
+w = open("file3.txt","w")
+countries = ["pakistan\n","india\n","Nepal\n","Bengaldesh\n","Sri Lanka"] 
+# or for new line we can can run loop because writelines() method don't goes on new line
+w.writelines(countries)
+"""
+    
+# seek() , tell() methods in file handling 
+f = open("file1.txt", "r")
+# if i want to skipp first 20 characters i will seek
+f.seek(20)
+
+file = f.read() 
+
+# print(file) 
+
+# tell method: It tell us how many characters we have seeked.
+
+print(f.tell()) 
