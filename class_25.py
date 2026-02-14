@@ -28,7 +28,6 @@ print(emp_nl)
 
 print(list(map(square, l))) # done with a single line of code
 
-"""
 # filter function
 lst = [1,23,4,3,4,5,6,8]
 def func_for_filter(x):
@@ -44,3 +43,12 @@ def func_for_reduce(x,y):
     return x + y
 # reduce function interacts with whole list as a single item or object
 print(reduce(func_for_reduce , lst)) 
+"""
+
+
+# different between  "is" keyword and "==" 
+a = [1,2,3]
+b = [1,2,3]
+
+print(a is b) # "is" keyword compares the exact memory location of object if it is immutable if will return true otherwise false 
+print(a == b) # "==" sign compares the values only 
