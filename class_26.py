@@ -1,4 +1,5 @@
 # --------  "Object Orientated Porgramming"   ----------
+# concept of classes and objects and methods
 
 """
 class Person:
